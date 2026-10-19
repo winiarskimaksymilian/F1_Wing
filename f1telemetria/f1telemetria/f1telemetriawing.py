@@ -11,7 +11,7 @@ time.sleep(2)
 porList = []
 
 serialInst.baudrate = 115200 # Ustawienie prędkości transmisji
-serialInst.port = "COM4"  # Zmień na odpowiedni port
+serialInst.port = "COM4"
 serialInst.open()
 
 # 1. Konfiguracja połączenia UDP
